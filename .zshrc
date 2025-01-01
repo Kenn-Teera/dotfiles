@@ -13,6 +13,7 @@ export ZSH="$HOME/.oh-my-zsh"
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/Documents/go
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+export PATH="$(brew --prefix python)/libexec/bin:$PATH"
 
 # ========================= Theme ========================= #
 ZSH_THEME="powerlevel10k/powerlevel10k"
